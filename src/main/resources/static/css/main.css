@@ -1,0 +1,232 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ html,body {
+     height: 100%;
+     overflow: hidden;
+ }
+
+ body {
+     background-image:url('https://photopict.ru/wp-content/uploads/2020/03/kartinki-serdechki-1.jpg');
+     background-size: cover;
+     font-family: Helvetica, Arial, sans-serif;
+     font-size: 34px;
+     color:white;
+ }
+
+ .clearfix:after {
+     display: block;
+     content: "";
+     clear: both;
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ .form-control {
+     width: 100%;
+     min-height: 40px;
+     color: #FF4539;
+     font-size: 16px;
+     border: #ff9de2;
+     border-radius: 25px;
+     background: white;
+    }
+
+ .form-group {
+     margin-bottom: 15px;
+ }
+
+ input {
+     padding-left: 10px;
+     outline: none;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ h1 {
+     font-size: 24px;
+ }
+
+ button {
+    color: #FF4D3E;
+    font-size: 16px;
+    border: #ff9de2;
+    border-radius: 25px;
+    background: white;
+    padding: 0.6rem 1rem;
+    transition: all 200ms ease-in-out;
+   }
+
+ button:hover {
+     background-color: #FF4D3E;
+     color: white;
+     cursor: pointer;
+    }
+
+ #home-page {
+     text-align: center;
+ }
+
+ .home-page-container {
+     background: #FF89B2;
+     box-shadow: 0 1px 15px white;
+     border-radius: 25px;
+     max-width: 500px;
+     display: inline-block;
+     position: absolute;
+     padding: 35px 55px 35px;
+     min-height: 250px;
+     top: 50%;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     margin-top: -160px;
+ }
+
+ .home-page-container .username-submit {
+     margin-top: 10px;
+ }
+
+
+ #chat-page {
+     position: relative;
+     height: 100%;
+ }
+
+ .chat-container {
+     max-width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #FF89B0;
+     box-shadow: 0 1px 15px white;
+     border-radius: 25px;
+     margin-top: 30px;
+     height: calc(100% - 60px);
+     max-height: 600px;
+     position: relative;
+ }
+
+ #chat-page ul {
+     list-style-type: none;
+     background-color: #FFF;
+     margin: 0;
+     overflow: auto;
+     overflow-y: scroll;
+     padding: 0 20px 0px 20px;
+     height: calc(100% - 150px);
+ }
+
+ #chat-page #messageForm {
+     padding: 20px;
+ }
+
+ #chat-page ul li {
+     line-height: 20px;
+     padding: 10px 20px;
+     margin: 0;
+ }
+
+ #chat-page ul li p {
+     margin: 0;
+ }
+
+ #chat-page .event-message {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+ #chat-page .event-message p {
+    color: #FE251A;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+ #chat-page .chat-message {
+     padding-left: 68px;
+     position: relative;
+ }
+
+ #chat-page .chat-message i {
+     position: absolute;
+     width: 42px;
+     height: 42px;
+     overflow: hidden;
+     left: 10px;
+     display: inline-block;
+     vertical-align: middle;
+     font-size: 24px;
+     line-height: 42px;
+     color: white;
+     text-align: center;
+     border-radius: 50%;
+     font-style: normal;
+     text-transform: uppercase;
+ }
+
+ #chat-page .chat-message span {
+     color: #FE251A;
+     font-size:18px;
+ }
+
+ #chat-page .chat-message p {
+     color: #FF87B2;
+     font-size:14px;
+ }
+
+ #messageForm .input-group input {
+     float: left;
+     width: calc(100% - 85px);
+ }
+
+ #messageForm .input-group button {
+     float: left;
+     width: 80px;
+     height: 38px;
+     margin-left: 5px;
+ }
+
+ .chat-header {
+     text-align: center;
+     padding: 15px;
+ }
+
+ .chat-header h2 {
+     margin: 0;
+     font-weight: 500;
+     font-size: 24px;
+     color:white;
+     text-shadow: 2px 2px #FF483C;
+ }
+
+ .connection {
+     padding-top: 12px;
+     text-align: center;
+     color: #FE261A;
+     font-size: 10px;
+     position: absolute;
+     top: 65px;
+     width: 100%;
+ }
+
+ #chat-page ul {
+     height: calc(100% - 120px);
+    }
+
+ #messageForm .input-group button {
+     width: 65px;
+    }
+
+ #messageForm .input-group input {
+     width: calc(100% - 70px);
+    }
+
+ .chat-header {
+     padding: 10px;
+   }
